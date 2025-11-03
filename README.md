@@ -68,14 +68,15 @@ Displays results:
 stores skill profiles in Firebase Cloud.
 ---
 ### **Project Structure**
+
 InternMatchPro/
 │
-├── internmatch_app.py              
-├── internship_recommender.py       
-├── requirements.txt                
-├── assets/                         
-├── firebase_key.json               
-└── README.md   
+├── internmatch_app.py 
+├── internship_recommender.py 
+├── requirements.txt 
+├── assets/ 
+├── firebase_key.json 
+└── README.md  
 ---
 
 ### **▶️ How to Run the Project**

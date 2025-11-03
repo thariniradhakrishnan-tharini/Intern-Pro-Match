@@ -1,19 +1,19 @@
 # 🌐 InternMatch Pro
 
 **InternMatch Pro** is an intelligent, cloud-integrated internship recommendation system that analyzes resumes, extracts key technical skills, and matches users with the most relevant internships and crash courses.  
-It uses **Natural Language Processing (NLP)**, **Machine Learning**, and **Streamlit** to provide personalized insights for learners and job seekers.
+It uses **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **Streamlit** to deliver personalized recommendations for learners and job seekers.
 
 ---
 
 ## 🚀 Features
 
-- 📄 **Smart Resume Parsing** – Extracts technical skills from uploaded PDF resumes.
-- 🤖 **AI-Powered Skill Matching** – Compares user skills with domain skill sets using ML + NLP.
-- 💼 **Internship Recommendations** – Suggests domain-specific internships dynamically.
-- 🎓 **Crash Course Finder** – Recommends learning resources for missing skills.
-- ☁️ **Firebase Integration (Optional)** – Stores user skill profiles securely on the cloud.
-- 📊 **Interactive Dashboard** – Built with Streamlit for an engaging user experience.
-- ⚡ **Dynamic UI** – Automatically updates missing and matching skills visually.
+- 📄 **Smart Resume Parsing** – Extracts technical skills from uploaded PDF resumes.  
+- 🤖 **AI-Powered Skill Matching** – Compares user skills with domain skill sets using ML + NLP.  
+- 💼 **Internship Recommendations** – Suggests domain-specific internships dynamically.  
+- 🎓 **Crash Course Finder** – Recommends online learning resources for missing skills.  
+- ☁️ **Firebase Integration (Optional)** – Stores user skill profiles securely on the cloud.  
+- 📊 **Interactive Dashboard** – Built with Streamlit for an engaging user experience.  
+- ⚡ **Dynamic UI** – Automatically updates missing and matching skills visually.  
 
 ---
 
@@ -37,13 +37,58 @@ Before running the project, ensure you have the following installed:
 | Requirement | Minimum Version | Purpose |
 |--------------|------------------|----------|
 | **Python** | 3.10+ | Required to execute the Streamlit app |
-| **pip** | Latest | For package installations |
+| **pip** | Latest | For installing dependencies |
 | **Streamlit** | 1.35+ | For creating the interactive UI |
 | **Code Editor** | VS Code / PyCharm | For development |
 | **Browser** | Chrome / Edge | To open the app locally |
 
-### 🧠 Install the NLP Model
+---
+Have your one ServiceAccountkey.json from google Firebase
+Hva eyour own Github Toke for verified access of the information
+---
 
-Download the spaCy English model (only once):
-```bash
-python -m spacy download en_core_web_sm
+### 🌈 How It Works
+
+User uploads their resume (PDF).
+
+The system extracts technical skills using NLP (spaCy).
+
+Extracted skills are compared with domain skill sets using TF-IDF + Cosine Similarity.
+
+Displays results:
+
+✅ Matching Skills
+
+⚠️ Missing Skills
+
+💼 Internship Recommendations
+
+🎓 Crash Course Suggestions
+
+stores skill profiles in Firebase Cloud.
+---
+### **Project Structure
+InternMatchPro/
+│
+├── internmatch_app.py              # Main Streamlit application
+├── internship_recommender.py       # Internship + course recommendation logic
+├── requirements.txt                # Required dependencies
+├── assets/                         # Images or icons (optional)
+├── firebase_key.json               # Firebase credentials (optional)
+└── README.md   
+---
+
+### ▶️ How to Run the Project
+
+Run this command in your terminal:
+
+    ```bash
+    streamlit run internmatch_app.py
+---
+
+See the ouput in localhost
+    ```bash
+    http://localhost:8501
+
+---
+

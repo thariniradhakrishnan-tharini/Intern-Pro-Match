@@ -48,11 +48,11 @@ Have your own Github Token for verified access of the information from your prof
 
 ### **🌈 How It Works**
 
-User uploads their resume (PDF).
+User uploads their resume.
 
 The system extracts technical skills using NLP (spaCy).
 
-Extracted skills are compared with domain skill sets using TF-IDF + Cosine Similarity.
+Extracted skills are compared with domain skill sets using TF-IDF.
 
 Displays results:
 

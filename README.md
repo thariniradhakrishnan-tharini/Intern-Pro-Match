@@ -67,14 +67,14 @@ Displays results:
 
 stores skill profiles in Firebase Cloud.
 ---
-### **Project Structure
+### **Project Structure**
 InternMatchPro/
 │
-├── internmatch_app.py              # Main Streamlit application
-├── internship_recommender.py       # Internship + course recommendation logic
-├── requirements.txt                # Required dependencies
-├── assets/                         # Images or icons (optional)
-├── firebase_key.json               # Firebase credentials (optional)
+├── internmatch_app.py              
+├── internship_recommender.py       
+├── requirements.txt                
+├── assets/                         
+├── firebase_key.json               
 └── README.md   
 ---
 

@@ -1,11 +1,11 @@
-# 🌐 InternMatch Pro
+# **🌐 InternMatch Pro**
 
 **InternMatch Pro** is an intelligent, cloud-integrated internship recommendation system that analyzes resumes, extracts key technical skills, and matches users with the most relevant internships and crash courses.  
 It uses **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **Streamlit** to deliver personalized recommendations for learners and job seekers.
 
 ---
 
-## 🚀 Features
+## **🚀 Features**
 
 - 📄 **Smart Resume Parsing** – Extracts technical skills from uploaded PDF resumes.  
 - 🤖 **AI-Powered Skill Matching** – Compares user skills with domain skill sets using ML + NLP.  
@@ -17,7 +17,7 @@ It uses **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **
 
 ---
 
-## 🧩 Tech Stack
+## **🧩 Tech Stack**
 
 | Layer | Technology Used | Purpose |
 |--------|------------------|----------|
@@ -30,7 +30,7 @@ It uses **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **
 
 ---
 
-## ⚙️ Prerequisites
+## **⚙️ Prerequisites**
 
 Before running the project, ensure you have the following installed:
 
@@ -47,7 +47,7 @@ Have your one ServiceAccountkey.json from google Firebase
 Hva eyour own Github Toke for verified access of the information
 ---
 
-### 🌈 How It Works
+### **🌈 How It Works**
 
 User uploads their resume (PDF).
 
@@ -78,7 +78,7 @@ InternMatchPro/
 └── README.md   
 ---
 
-### ▶️ How to Run the Project
+### **▶️ How to Run the Project**
 
 Run this command in your terminal:
 
@@ -87,6 +87,7 @@ Run this command in your terminal:
 ---
 
 See the ouput in localhost
+
     ```bash
     http://localhost:8501
 

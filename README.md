@@ -42,10 +42,9 @@ Before running the project, ensure you have the following installed:
 | **Code Editor** | VS Code / PyCharm | For development |
 | **Browser** | Chrome / Edge | To open the app locally |
 
----
+
 Have your one ServiceAccountkey.json from google Firebase and
 Have eyour own Github Toke for verified access of the information
----
 
 ### **🌈 How It Works**
 

@@ -70,13 +70,14 @@ stores skill profiles in Firebase Cloud.
 
 Run this command in your terminal:
 
-    ```bash
+    
+    
     streamlit run internmatch_app.py
 ---
 
 See the ouput in localhost
 
-    ```bash
+    
     http://localhost:8501
 
 ---
